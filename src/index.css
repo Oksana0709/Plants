@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eceff1;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.wrapper {
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: white;
+  box-shadow: 0px 10px 20px black;
+  border-radius: 20px;
+  max-width: 1088px;
+  margin: 50px auto;
+  list-style-type: none;
+}
+
+.cards__plants {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order {
+  flex: 1;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+
+.img__info {
+  margin: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+.card__total__block ul {
+  display: block;
+  margin-bottom: 20px !important;
+  margin-top: 0px;
+  list-style-type: none;
+  padding: 0px 10px 0px 5px;
+}
+.card__total__block li {
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+}
+.card__total__block div {
+  flex: 1;
+  height: 1px;
+  border-bottom: 1px dashed #dfdfdf;
+  position: relative;
+  top: -4px;
+  margin: 0 7px;
+}
+
+.content {
+  padding: 0px 30px 20px 30px;
+}
+
+.green__button {
+  width: 98%;
+  height: 55px;
+  background: #9dd558;
+  border-radius: 18px;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500px;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+.green__button:hover {
+  opacity: 1;
+}
+.green__button .arrow {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0;
+  margin: 0px 60px 15px 15px;
+}
+
+.search__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 40px 20px 40px;
+}
+.search__block input {
+  border: 1px solid #f3f3f3;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.search__block {
+  position: relative;
+}
+.search__block .clear {
+  position: absolute;
+  right: 0;
+  width: 18px;
+  height: 18px;
+}/*# sourceMappingURL=index.css.map */
